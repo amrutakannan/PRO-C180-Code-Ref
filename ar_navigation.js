@@ -52,7 +52,7 @@ function render_elements() {
                                     look-at="#step_${i - 1}"
                                     scale="5 5 5"
                                     id="step_${i}"
-                                    position="0 0 -10"
+                                    position="0 0 0"
                                 >
                                 </a-image>
                                 <a-entity>
@@ -71,7 +71,7 @@ function render_elements() {
                                     look-at="#step_${i + 1}"
                                     scale="5 5 5"
                                     id="step_${i}"
-                                    position="0 0 -10"
+                                    position="0 0 0"
                                 >
                                 </a-image>
                                 <a-entity>
