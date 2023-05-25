@@ -32,6 +32,8 @@ function render_elements() {
                 "slight_left": "ar_slight_left.png",
                 "straight": "ar_straight.png"
             }
+            console.log("RESPONSE:::")
+            console.log(response)
             let steps = response.routes[0].legs[0].steps
             for (let i = 0; i < steps.length; i++) {
                 let image;
