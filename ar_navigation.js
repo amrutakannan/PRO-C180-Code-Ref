@@ -44,6 +44,9 @@ function render_elements() {
                 } else if (instruction.includes("Turn left")) {
                     image = "turn_left"
                 }
+                else {
+                    image = "straight"
+                }
                 if (i > 0) {
                     $("#scene_container").append(
                         `
